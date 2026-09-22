@@ -1,5 +1,5 @@
 body {
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-family: 'Google Sans', Arial, Helvetica, sans-serif;
 	line-height: 1.5;
 	color: black;
 	margin: 0;
@@ -12,7 +12,6 @@ header {
 	color: #fff;
 	text-align: in-line;
 	padding: 1rem 0;
-	/* display: flex; */
 }
 
 
@@ -58,11 +57,9 @@ main {
 	align-items: center;
 }
 
-.education1,
-.education2 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+.experience1 p,
+.experience2 p {
+	margin: 0.25rem 0;
 }
 
 .education1,
